@@ -61,6 +61,18 @@
         #g{
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
         }
+        input:focus{
+            font-size: 20px;
+            color: green;
+        }
+        li:nth-child(2n+1){
+            background-color:darkgray;
+            width: fit-content;
+        }
+        
+        li::after{
+            content: "🎓";
+        }
         
         
 
@@ -86,6 +98,7 @@
         <li>Mid exam</li>
         <li>Final exam</li>
     </ol>
+    <p>Enter your ID <input name="StudentID" type="text"></p>
    
     <section class="i">
         <h3 class="c">Computer Science and Engineering</h3>
